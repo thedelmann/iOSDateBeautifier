@@ -3,7 +3,7 @@
 //  DateBeautifier
 //
 //  Created by thomas on 13.08.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Ingenieurbüro Edelmann. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -24,7 +24,12 @@
     } else {
         self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    
+    UINavigationController *navctl = [[UINavigationController alloc]
+                                      initWithRootViewController:self.viewController];    
+    
+
+    self.window.rootViewController = navctl;
     [self.window makeKeyAndVisible];
     return YES;
 }
