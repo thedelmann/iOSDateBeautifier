@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E967502215D8F9B5002395BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967502115D8F9B5002395BB /* UIKit.framework */; };
+		E967502415D8F9B5002395BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967502315D8F9B5002395BB /* Foundation.framework */; };
+		E967502615D8F9B5002395BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967502515D8F9B5002395BB /* CoreGraphics.framework */; };
+		E967502C15D8F9B5002395BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E967502A15D8F9B5002395BB /* InfoPlist.strings */; };
+		E967502E15D8F9B5002395BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E967502D15D8F9B5002395BB /* main.m */; };
+		E967503215D8F9B5002395BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E967503115D8F9B5002395BB /* AppDelegate.m */; };
+		E967503515D8F9B5002395BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E967503415D8F9B5002395BB /* ViewController.m */; };
+		E967503815D8F9B5002395BB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E967503615D8F9B5002395BB /* ViewController_iPhone.xib */; };
+		E967503B15D8F9B5002395BB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E967503915D8F9B5002395BB /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E967501D15D8F9B5002395BB /* DateBeautifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateBeautifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E967502115D8F9B5002395BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E967502315D8F9B5002395BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E967502515D8F9B5002395BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E967502915D8F9B5002395BB /* DateBeautifier-Info.plist */ = {isa = PBXFileReference; path = "DateBeautifier-Info.plist"; sourceTree = "<group>"; };
+		E967502B15D8F9B5002395BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E967502D15D8F9B5002395BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E967502F15D8F9B5002395BB /* DateBeautifier-Prefix.pch */ = {isa = PBXFileReference; path = "DateBeautifier-Prefix.pch"; sourceTree = "<group>"; };
+		E967503015D8F9B5002395BB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E967503115D8F9B5002395BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E967503315D8F9B5002395BB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E967503415D8F9B5002395BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E967503715D8F9B5002395BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E967503A15D8F9B5002395BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E967501A15D8F9B5002395BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E967502215D8F9B5002395BB /* UIKit.framework in Frameworks */,
+				E967502415D8F9B5002395BB /* Foundation.framework in Frameworks */,
+				E967502615D8F9B5002395BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E967501215D8F9B5002395BB = {
+			isa = PBXGroup;
+			children = (
+				E967502715D8F9B5002395BB /* DateBeautifier */,
+				E967502015D8F9B5002395BB /* Frameworks */,
+				E967501E15D8F9B5002395BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E967501E15D8F9B5002395BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E967501D15D8F9B5002395BB /* DateBeautifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E967502015D8F9B5002395BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E967502115D8F9B5002395BB /* UIKit.framework */,
+				E967502315D8F9B5002395BB /* Foundation.framework */,
+				E967502515D8F9B5002395BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E967502715D8F9B5002395BB /* DateBeautifier */ = {
+			isa = PBXGroup;
+			children = (
+				E967503015D8F9B5002395BB /* AppDelegate.h */,
+				E967503115D8F9B5002395BB /* AppDelegate.m */,
+				E967503315D8F9B5002395BB /* ViewController.h */,
+				E967503415D8F9B5002395BB /* ViewController.m */,
+				E967503615D8F9B5002395BB /* ViewController_iPhone.xib */,
+				E967503915D8F9B5002395BB /* ViewController_iPad.xib */,
+				E967502815D8F9B5002395BB /* Supporting Files */,
+			);
+			path = DateBeautifier;
+			sourceTree = "<group>";
+		};
+		E967502815D8F9B5002395BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E967502915D8F9B5002395BB /* DateBeautifier-Info.plist */,
+				E967502A15D8F9B5002395BB /* InfoPlist.strings */,
+				E967502D15D8F9B5002395BB /* main.m */,
+				E967502F15D8F9B5002395BB /* DateBeautifier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E967501C15D8F9B5002395BB /* DateBeautifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E967503E15D8F9B5002395BB /* Build configuration list for PBXNativeTarget "DateBeautifier" */;
+			buildPhases = (
+				E967501915D8F9B5002395BB /* Sources */,
+				E967501A15D8F9B5002395BB /* Frameworks */,
+				E967501B15D8F9B5002395BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateBeautifier;
+			productName = DateBeautifier;
+			productReference = E967501D15D8F9B5002395BB /* DateBeautifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E967501415D8F9B5002395BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E967501715D8F9B5002395BB /* Build configuration list for PBXProject "DateBeautifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E967501215D8F9B5002395BB;
+			productRefGroup = E967501E15D8F9B5002395BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E967501C15D8F9B5002395BB /* DateBeautifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E967501B15D8F9B5002395BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E967502C15D8F9B5002395BB /* InfoPlist.strings in Resources */,
+				E967503815D8F9B5002395BB /* ViewController_iPhone.xib in Resources */,
+				E967503B15D8F9B5002395BB /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E967501915D8F9B5002395BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E967502E15D8F9B5002395BB /* main.m in Sources */,
+				E967503215D8F9B5002395BB /* AppDelegate.m in Sources */,
+				E967503515D8F9B5002395BB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E967502A15D8F9B5002395BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E967502B15D8F9B5002395BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E967503615D8F9B5002395BB /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E967503715D8F9B5002395BB /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E967503915D8F9B5002395BB /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E967503A15D8F9B5002395BB /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E967503C15D8F9B5002395BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E967503D15D8F9B5002395BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E967503F15D8F9B5002395BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateBeautifier/DateBeautifier-Prefix.pch";
+				INFOPLIST_FILE = "DateBeautifier/DateBeautifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E967504015D8F9B5002395BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateBeautifier/DateBeautifier-Prefix.pch";
+				INFOPLIST_FILE = "DateBeautifier/DateBeautifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E967501715D8F9B5002395BB /* Build configuration list for PBXProject "DateBeautifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E967503C15D8F9B5002395BB /* Debug */,
+				E967503D15D8F9B5002395BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E967503E15D8F9B5002395BB /* Build configuration list for PBXNativeTarget "DateBeautifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E967503F15D8F9B5002395BB /* Debug */,
+				E967504015D8F9B5002395BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E967501415D8F9B5002395BB /* Project object */;
+}
