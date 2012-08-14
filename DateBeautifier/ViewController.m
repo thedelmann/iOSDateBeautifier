@@ -98,7 +98,7 @@
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
     [dateFormatter setLocale:locale];
-    [dateFormatter setDateFormat:@"HH:mm:ss"];
+    [dateFormatter setDateFormat:@"dd.MM.yyyy HH:mm:ss"];
 
     NSString *helpString = [NSString stringWithFormat:@"%@\n%@",
                             [dateFormatter stringFromDate:[tableData objectAtIndex:indexPath.row]],

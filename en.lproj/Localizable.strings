@@ -1,0 +1,21 @@
+/* 
+  DateBeautifier.strings
+  DateBeautifier
+
+  Created by thomas on 14.08.12.
+ //  Copyright (c) 2012 Ingenieurbüro Edelmann. All rights reserved.
+*/
+
+"SECOND0" = "now";
+"SECOND1" = "one second ago";
+"SECOND2" = "%1$d seconds ago";
+"MINUTE1" = "one minute ago";
+"MINUTE2" = "%1$d minutes ago";
+"HOUR1" = "one hour ago";
+"HOUR2" = "%1$d hours ago";
+"DAY1" = "one day ago";
+"DAY2" = "%1$d days ago";
+"MONTH1" = "one month ago";
+"MONTH2" = "%1$d months ago";
+"YEAR1" = "one year ago";
+"YEAR2" = "%1$d years ago";

@@ -33,49 +33,49 @@
     
     if ((years == 0) && (months == 0) && (days == 0) && (hours == 0) && (minutes == 0) && (seconds == 0))
     {
-        timeAgo = [NSString stringWithFormat:@"jetzt"];
+        timeAgo = NSLocalizedString(@"SECOND0", nil);
     }
     else if ((years == 0) && (months == 0) && (days == 0) && (hours == 0) && (minutes == 0))
     {
         if (seconds == 1)
-            timeAgo = [NSString stringWithFormat:@"vor einer Sekunde"];
+            timeAgo = NSLocalizedString(@"SECOND1", nil);
         else    
-            timeAgo = [NSString stringWithFormat:@"vor %d Sekunden", seconds];
+            timeAgo = [NSString stringWithFormat:NSLocalizedString(@"SECOND2", nil), seconds];
     }
     else if ((years == 0) && (months == 0) && (days == 0) && (hours == 0))
     {
         if (minutes == 1)
-            timeAgo = [NSString stringWithFormat:@"vor einer Minute"];
+            timeAgo = NSLocalizedString(@"MINUTE1", nil);
         else    
-            timeAgo = [NSString stringWithFormat:@"vor %d Minuten", minutes];
+            timeAgo = [NSString stringWithFormat:NSLocalizedString(@"MINUTE2", nil), minutes];
     }
     else if ((years == 0) && (months == 0) && (days == 0))
     {
         if (hours == 1)
-            timeAgo = [NSString stringWithFormat:@"vor einer Stunde"];
+            timeAgo = NSLocalizedString(@"HOUR1", nil);
         else    
-            timeAgo = [NSString stringWithFormat:@"vor %d Stunden", hours];
+            timeAgo = [NSString stringWithFormat:NSLocalizedString(@"HOUR2", nil), hours];
     }
     else if ((years == 0) && (months == 0))
     {
         if (days == 1)
-            timeAgo = [NSString stringWithFormat:@"vor einem Tag"];
+            timeAgo = NSLocalizedString(@"DAY1", nil);
         else    
-            timeAgo = [NSString stringWithFormat:@"vor %d Tagen", days];
+            timeAgo = [NSString stringWithFormat:NSLocalizedString(@"DAY2", nil), days];
     }
     else if (years == 0)
     {
         if (months == 1)
-            timeAgo = [NSString stringWithFormat:@"vor einem Monat"];
+            timeAgo = NSLocalizedString(@"MONTH1", nil);
         else    
-            timeAgo = [NSString stringWithFormat:@"vor %d Monaten", months];
+            timeAgo = [NSString stringWithFormat:NSLocalizedString(@"MONTH2", nil), months];
     }
     else 
     {
         if (years == 1)
-            timeAgo = [NSString stringWithFormat:@"vor einem Jahr"];
+            timeAgo = NSLocalizedString(@"YEAR1", nil);
         else    
-            timeAgo = [NSString stringWithFormat:@"vor %d Jahren", years];
+            timeAgo = [NSString stringWithFormat:NSLocalizedString(@"YEAR2", nil), years];
     }
     
     return timeAgo;

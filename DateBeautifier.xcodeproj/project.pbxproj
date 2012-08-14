@@ -17,7 +17,7 @@
 		E967503815D8F9B5002395BB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E967503615D8F9B5002395BB /* ViewController_iPhone.xib */; };
 		E967503B15D8F9B5002395BB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E967503915D8F9B5002395BB /* ViewController_iPad.xib */; };
 		E967504315D917F1002395BB /* DateTimeBeautifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E967504215D917F0002395BB /* DateTimeBeautifier.m */; };
-		E967504515D936F1002395BB /* Bildschirmfoto 2012-08-13 um 15.21.16.png in Resources */ = {isa = PBXBuildFile; fileRef = E967504415D936F1002395BB /* Bildschirmfoto 2012-08-13 um 15.21.16.png */; };
+		E9B5D57C15DA31170098BE0A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B5D57E15DA31170098BE0A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,11 @@
 		E967503A15D8F9B5002395BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		E967504115D917F0002395BB /* DateTimeBeautifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeBeautifier.h; sourceTree = "<group>"; };
 		E967504215D917F0002395BB /* DateTimeBeautifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeBeautifier.m; sourceTree = "<group>"; };
-		E967504415D936F1002395BB /* Bildschirmfoto 2012-08-13 um 15.21.16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bildschirmfoto 2012-08-13 um 15.21.16.png"; sourceTree = "<group>"; };
+		E9B5D57D15DA31170098BE0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9B5D57F15DA31250098BE0A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9B5D58015DA39D30098BE0A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9B5D58115DA39D70098BE0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9B5D58215DA39DA0098BE0A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,6 @@
 				E967501E15D8F9B5002395BB /* Products */,
 				E967504115D917F0002395BB /* DateTimeBeautifier.h */,
 				E967504215D917F0002395BB /* DateTimeBeautifier.m */,
-				E967504415D936F1002395BB /* Bildschirmfoto 2012-08-13 um 15.21.16.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +108,7 @@
 				E967502A15D8F9B5002395BB /* InfoPlist.strings */,
 				E967502D15D8F9B5002395BB /* main.m */,
 				E967502F15D8F9B5002395BB /* DateBeautifier-Prefix.pch */,
+				E9B5D57E15DA31170098BE0A /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +147,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				fr,
+				es,
+				it,
 			);
 			mainGroup = E967501215D8F9B5002395BB;
 			productRefGroup = E967501E15D8F9B5002395BB /* Products */;
@@ -162,7 +170,7 @@
 				E967502C15D8F9B5002395BB /* InfoPlist.strings in Resources */,
 				E967503815D8F9B5002395BB /* ViewController_iPhone.xib in Resources */,
 				E967503B15D8F9B5002395BB /* ViewController_iPad.xib in Resources */,
-				E967504515D936F1002395BB /* Bildschirmfoto 2012-08-13 um 15.21.16.png in Resources */,
+				E9B5D57C15DA31170098BE0A /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +213,19 @@
 				E967503A15D8F9B5002395BB /* en */,
 			);
 			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		E9B5D57E15DA31170098BE0A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B5D57D15DA31170098BE0A /* en */,
+				E9B5D57F15DA31250098BE0A /* de */,
+				E9B5D58015DA39D30098BE0A /* fr */,
+				E9B5D58115DA39D70098BE0A /* es */,
+				E9B5D58215DA39DA0098BE0A /* it */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +319,7 @@
 				E967504015D8F9B5002395BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

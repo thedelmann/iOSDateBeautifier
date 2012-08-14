@@ -1,0 +1,21 @@
+/* 
+  DateBeautifier.strings
+  DateBeautifier
+
+  Created by thomas on 14.08.12.
+ //  Copyright (c) 2012 Ingenieurbüro Edelmann. All rights reserved.
+*/
+
+"SECOND0" = "jetzt";
+"SECOND1" = "vor einer Sekunde";
+"SECOND2" = "vor %1$d Sekunden";
+"MINUTE1" = "vor einer Minute";
+"MINUTE2" = "vor %1$d Minuten";
+"HOUR1" = "vor einer Stunde";
+"HOUR2" = "vor %1$d Stunden";
+"DAY1" = "vor einem Tag";
+"DAY2" = "vor %1$d Tagen";
+"MONTH1" = "vor einem Monat";
+"MONTH2" = "vor %1$d Monaten";
+"YEAR1" = "vor einem Jahr";
+"YEAR2" = "vor %1$d Jahren";
