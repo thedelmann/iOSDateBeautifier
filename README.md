@@ -1,5 +1,5 @@
 iOSDateBeautifier
 =================
 
-![screenshot](https://github.com/thedelmann/iOSDateBeautifier/blob/master/screenshot.png)
+![screenshot](https://github.com/thedelmann/iOSDateBeautifier/screenshot.png)
 
