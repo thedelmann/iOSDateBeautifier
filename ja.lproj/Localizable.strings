@@ -1,0 +1,21 @@
+/*
+ DateBeautifier.strings
+ DateBeautifier
+ 
+ Created by modocache on 14.08.12.
+ //  Copyright (c) 2012 Ingenieurbüro Edelmann. All rights reserved.
+ */
+
+"SECOND0" = "ついさっき";
+"SECOND1" = "1秒前";
+"SECOND2" = "%1$d秒前";
+"MINUTE1" = "1分前";
+"MINUTE2" = "%1$d分前";
+"HOUR1" = "1時間前";
+"HOUR2" = "%1$d時間前";
+"DAY1" = "昨日";
+"DAY2" = "%1$d日前";
+"MONTH1" = "先月";
+"MONTH2" = "%1$dヶ月前";
+"YEAR1" = "去年";
+"YEAR2" = "%1$d年前";

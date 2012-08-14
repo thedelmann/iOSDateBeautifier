@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3574DD15DA974900A48DE2 /* DateBeautifier-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E967502915D8F9B5002395BB /* DateBeautifier-Info.plist */; };
 		E967502215D8F9B5002395BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967502115D8F9B5002395BB /* UIKit.framework */; };
 		E967502415D8F9B5002395BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967502315D8F9B5002395BB /* Foundation.framework */; };
 		E967502615D8F9B5002395BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967502515D8F9B5002395BB /* CoreGraphics.framework */; };
@@ -21,11 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3574DC15DA974900A48DE2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E967501D15D8F9B5002395BB /* DateBeautifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateBeautifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E967502115D8F9B5002395BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E967502315D8F9B5002395BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E967502515D8F9B5002395BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E967502915D8F9B5002395BB /* DateBeautifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateBeautifier-Info.plist"; sourceTree = "<group>"; };
+		E967502915D8F9B5002395BB /* DateBeautifier-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DateBeautifier-Info.plist"; sourceTree = "<group>"; };
 		E967502B15D8F9B5002395BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E967502D15D8F9B5002395BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E967502F15D8F9B5002395BB /* DateBeautifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateBeautifier-Prefix.pch"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				fr,
 				es,
 				it,
+				ja,
 			);
 			mainGroup = E967501215D8F9B5002395BB;
 			productRefGroup = E967501E15D8F9B5002395BB /* Products */;
@@ -171,6 +174,7 @@
 				E967503815D8F9B5002395BB /* ViewController_iPhone.xib in Resources */,
 				E967503B15D8F9B5002395BB /* ViewController_iPad.xib in Resources */,
 				E9B5D57C15DA31170098BE0A /* Localizable.strings in Resources */,
+				DA3574DD15DA974900A48DE2 /* DateBeautifier-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +227,7 @@
 				E9B5D58015DA39D30098BE0A /* fr */,
 				E9B5D58115DA39D70098BE0A /* es */,
 				E9B5D58215DA39DA0098BE0A /* it */,
+				DA3574DC15DA974900A48DE2 /* ja */,
 			);
 			name = Localizable.strings;
 			path = ..;
